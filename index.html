@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog Clock</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="clock">
+            
+                <div style="--clr:#d74559; --h: 110px; --w: 10px" id="hour" class="hand"><i></i></div>
+                <div style="--clr:#4abaea; --h: 135px; --w: 10px"  id="minute" class="hand"><i></i></div>
+                <div style="--clr:#fff; --h: 160px; --w: 6px" id="seconds" class="hand"><i></i></div>
+                <span class="num" style="--n:1;"><b>1</b></span>
+                <span class="num" style="--n:2;"><b>2</b></span>
+                <span class="num" style="--n:3;"><b>3</b></span>
+                <span class="num" style="--n:4;"><b>4</b></span>
+                <span class="num" style="--n:5;"><b>5</b></span>
+                <span class="num" style="--n:6;"><b>6</b></span>
+                <span class="num" style="--n:7;"><b>7</b></span>
+                <span class="num" style="--n:8;"><b>8</b></span>
+                <span class="num" style="--n:9;"><b>9</b></span>
+                <span class="num" style="--n:10;"><b>10</b></span>
+                <span class="num" style="--n:11;"><b>11</b></span> 
+                <span class="num" style="--n:12; "><b>12</b></span>
+              <!-- <span style="--i:1;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:2;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:3;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:4;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:6;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:5;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:7;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:8;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:9;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:10;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:11;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:12;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:13;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:14;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:15;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:16;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:17;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:18;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:19;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:20;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:21;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:22;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:23;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:24;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:25;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:26;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:27;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:28;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:29;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:30;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:31;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:32;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:33;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:34;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:35;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:36;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:37;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:38;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:39;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:40;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:41;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:42;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:43;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:44;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:45;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:46;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:47;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:48;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:49;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:50;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:51;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:52;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:53;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:54;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:55;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:56;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:57;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:58;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:59;"><i><b style="color: #d74559;">|</b></i></span>
+              <span style="--i:60;"><i><b style="color: #d74559;">|</b></i></span>    -->
+                       
+        </div>
+        
+    </div>
+    
+
+    <script src="script.js"></script>
+
+</body>
+</html>
